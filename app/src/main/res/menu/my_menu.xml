@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="@string/str_home"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/canteenFragment"
+        android:icon="@drawable/ic_canteen"
+        android:title="@string/str_canteen"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/orderFragment"
+        android:icon="@drawable/ic_order"
+        android:title="@string/str_order"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/mineFragment"
+        android:icon="@drawable/ic_mine"
+        android:title="@string/str_mine"
+        app:showAsAction="ifRoom"/>
+</menu>

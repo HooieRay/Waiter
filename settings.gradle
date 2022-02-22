@@ -1,0 +1,9 @@
+include ':canteen'
+include ':service'
+include ':common'
+include ':mine'
+include ':order'
+include ':home'
+include ':login'
+include ':app'
+rootProject.name = "Waiter"

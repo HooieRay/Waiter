@@ -1,0 +1,26 @@
+if (singleModule.toBoolean()){
+    apply plugin: 'com.android.application'
+}else {
+    apply plugin: 'com.android.library'
+}
+
+apply from: '../dependencies.gradle'
+apply plugin: 'kotlin-android'
+
+
+android {
+
+
+    defaultConfig {
+        if (singleModule.toBoolean()){
+            applicationId 'com.monkeyking.app.mine'
+        }
+    }
+
+
+}
+
+dependencies {
+    implementation project(path: ':service')
+
+}

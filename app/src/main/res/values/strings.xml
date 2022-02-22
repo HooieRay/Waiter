@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Waiter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_home">首页</string>
+    <string name="str_order">订单</string>
+    <string name="str_canteen">餐厅</string>
+    <string name="str_mine">我的</string>
+</resources>

@@ -1,0 +1,23 @@
+if (singleModule.toBoolean()){
+    apply plugin: 'com.android.application'
+}else {
+    apply plugin: 'com.android.library'
+}
+apply from: '../dependencies.gradle'
+
+
+android {
+
+    defaultConfig {
+        //只有独立运行的时候才需要applicationId
+        if (singleModule.toBoolean()){
+            applicationId "com.monkeyking.app.login"
+        }
+    }
+
+
+}
+
+dependencies {
+    implementation project(path: ':service')
+}
