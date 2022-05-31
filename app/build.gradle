@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 apply from: '../dependencies.gradle'
 
 android {
-
     defaultConfig {
         applicationId "com.monkeyking.app"
     }
@@ -13,13 +12,13 @@ dependencies {
     //根据是否独立运行，将模块作为apk还是module
     if (!singleModule.toBoolean()){
         //其他模块作为app运行的话，就不能依赖库作为lib使用
-        implementation project(path: ':home')
-        implementation project(path: ':login')
-        implementation project(path: ':mine')
-        implementation project(path: ':order')
-        implementation project(path: ':canteen')
+        implementation project(path: ':module_home')
+        implementation project(path: ':module_login')
+        implementation project(path: ':module_mine')
+        implementation project(path: ':module_order')
+        implementation project(path: ':module_canteen')
     }
-    implementation project('::service')
+    implementation project('::lib_service')
     //今日头条适配方案
     implementation 'me.jessyan:autosize:1.1.2'
 

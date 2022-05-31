@@ -3,7 +3,9 @@ if (singleModule.toBoolean()){
 }else {
     apply plugin: 'com.android.library'
 }
+
 apply from: '../dependencies.gradle'
+apply plugin: 'kotlin-android'
 
 
 android {
@@ -11,13 +13,13 @@ android {
     defaultConfig {
         //只有独立运行的时候才需要applicationId
         if (singleModule.toBoolean()){
-            applicationId "com.monkeyking.app.login"
+            applicationId "com.monkeyking.app.home"
         }
     }
-
 
 }
 
 dependencies {
-    implementation project(path: ':service')
+    implementation project(path: ':lib_service')
+
 }

@@ -7,13 +7,11 @@ if (singleModule.toBoolean()){
 apply from: '../dependencies.gradle'
 apply plugin: 'kotlin-android'
 
-
 android {
-
 
     defaultConfig {
         if (singleModule.toBoolean()){
-            applicationId 'com.monkeyking.app.mine'
+            applicationId 'com.monkeyking.app.order'
         }
     }
 
@@ -21,6 +19,7 @@ android {
 }
 
 dependencies {
-    implementation project(path: ':service')
+    implementation project(path: ':lib_service')
+
 
 }

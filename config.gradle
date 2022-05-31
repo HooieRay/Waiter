@@ -1,0 +1,8 @@
+ext{
+
+    BASE_HOST = [
+            "release":"https://www.iterator.cloud",
+            "debug":"https://api.iterator.cloud"
+    ]
+
+}

@@ -20,6 +20,6 @@ android {
 }
 
 dependencies {
-    implementation project(path: ':service')
+    implementation project(path: ':lib_service')
 
 }

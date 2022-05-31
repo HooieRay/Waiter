@@ -11,7 +11,7 @@ android {
 }
 
 dependencies {
-    api project(path:':common')
+    api project(path: ':lib_common')
     //调试助手的工具
     debugImplementation "com.didichuxing.doraemonkit:doraemonkit:3.2.0"
     releaseImplementation "com.didichuxing.doraemonkit:doraemonkit-no-op:3.2.0"
