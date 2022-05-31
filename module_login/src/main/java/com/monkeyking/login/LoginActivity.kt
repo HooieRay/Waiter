@@ -44,7 +44,11 @@ class LoginActivity :BaseActivity<ActivityLoginBinding>() {
         //紧急修复bug
     }
 
-    fun fixLogin(){
+    fun fixLogin() {
         //测试说登录提示错误
+    }
+
+    fun login(){
+        //用户需求加一个验证码登录
     }
 }
