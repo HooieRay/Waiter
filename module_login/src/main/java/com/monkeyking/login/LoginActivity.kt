@@ -36,6 +36,10 @@ class LoginActivity :BaseActivity<ActivityLoginBinding>() {
         //再试试暂存
     }
 
+    fun test1() {
+        //登录
+    }
+    
     fun fixBug(){
         //紧急修复bug
     }
