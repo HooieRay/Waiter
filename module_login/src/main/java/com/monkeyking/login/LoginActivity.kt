@@ -29,4 +29,8 @@ class LoginActivity :BaseActivity<ActivityLoginBinding>() {
     override fun initConfig() {
         super.initConfig()
     }
+
+    fun fixBug(){
+        //紧急修复bug
+    }
 }
