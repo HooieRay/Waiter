@@ -29,4 +29,15 @@ class LoginActivity :BaseActivity<ActivityLoginBinding>() {
     override fun initConfig() {
         super.initConfig()
     }
+
+    private fun test(){
+        //只是为了测试git branch分支
+
+        //再试试暂存
+    }
+
+    fun test1(){
+        //测试 合并
+    }
+
 }
