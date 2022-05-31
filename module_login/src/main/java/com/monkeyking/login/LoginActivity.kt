@@ -30,6 +30,16 @@ class LoginActivity :BaseActivity<ActivityLoginBinding>() {
         super.initConfig()
     }
 
+    private fun test(){
+        //只是为了测试git branch分支
+
+        //再试试暂存
+    }
+
+    fun test1() {
+        //登录
+    }
+    
     fun fixBug(){
         //紧急修复bug
     }
