@@ -33,4 +33,8 @@ class LoginActivity :BaseActivity<ActivityLoginBinding>() {
     fun fixBug(){
         //紧急修复bug
     }
+
+    fun fixLogin(){
+        //测试说登录提示错误
+    }
 }
