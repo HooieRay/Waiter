@@ -36,5 +36,7 @@ class LoginActivity :BaseActivity<ActivityLoginBinding>() {
         //再试试暂存
     }
 
-
+    fun test1(){
+        //登录
+    }
 }
