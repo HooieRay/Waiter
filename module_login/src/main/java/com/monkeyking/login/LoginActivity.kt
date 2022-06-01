@@ -47,6 +47,7 @@ class LoginActivity :BaseActivity<ActivityLoginBinding>() {
     fun fixLogin() {
         //测试说登录提示错误
     }
+    
     fun login(){
         //用户需求加一个验证码登录
     }
